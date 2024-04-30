@@ -1,4 +1,7 @@
-function add(num1: number, num2: number): number {
+{
+    
+    
+    function add(num1: number, num2: number): number {
   return num1 + num2;
 }
 
@@ -17,4 +20,8 @@ const poorUser = {
 };
 
 const arr: number[] = [1, 4, 10];
-const newArr: number[] = arr.map((elem: number): number => elem * elem);
+    const newArr: number[] = arr.map((elem: number): number => elem * elem);
+    
+
+    
+}
