@@ -13,7 +13,7 @@
   };
 
   const {
-    contactNo,
+    contactNo,  //contactNo :number => it's not a type. This is contactNo rename as number
     name: { middleName },
   } = user;
 }
