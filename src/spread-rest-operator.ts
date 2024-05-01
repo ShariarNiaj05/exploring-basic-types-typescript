@@ -28,6 +28,7 @@
 
   const greetFriends = (...friends: string[]) => {
     console.log(`Hi ${friends}  `);
+    friends.forEach((friend: String) => console.log(`Hi ${friend}  `));
   };
 
   greetFriends("dlfj", "okay", "goog", "xvxc");

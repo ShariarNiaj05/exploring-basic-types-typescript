@@ -19,6 +19,7 @@
     // rest Operator
     const greetFriends = (...friends) => {
         console.log(`Hi ${friends}  `);
+        friends.forEach((friend) => console.log(`Hi ${friend}  `));
     };
     greetFriends("dlfj", "okay", "goog", "xvxc");
 }
